@@ -1,0 +1,3 @@
+@searchableobjects.map do |searchableobject|
+  render partial: "searchableobject.json.jb", locals: { searchableobject: searchableobject }
+end

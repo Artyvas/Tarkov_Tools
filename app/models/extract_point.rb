@@ -1,0 +1,2 @@
+class ExtractPoint < ApplicationRecord
+end
