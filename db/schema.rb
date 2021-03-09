@@ -10,10 +10,55 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_08_235708) do
+ActiveRecord::Schema.define(version: 2021_03_09_041435) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "boss_spawns", force: :cascade do |t|
+    t.integer "location_id"
+    t.integer "image_id"
+    t.string "name"
+    t.string "boss_difficulty_rating"
+    t.string "description"
+    t.string "wiki_url"
+    t.string "spawn_rate"
+    t.string "boss_rank"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "extract_points", force: :cascade do |t|
+    t.integer "location_id"
+    t.integer "image_id"
+    t.string "name"
+    t.string "extract_type"
+    t.string "extract_rating"
+    t.string "description"
+    t.string "wiki_url"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "images", force: :cascade do |t|
+    t.integer "location_id"
+    t.integer "map_id"
+    t.string "hotspot"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "keys", force: :cascade do |t|
+    t.integer "location_id"
+    t.string "name"
+    t.integer "market_price"
+    t.integer "trader_price"
+    t.string "trader"
+    t.integer "searchable_object_id"
+    t.integer "loot_room_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "locations", force: :cascade do |t|
     t.integer "map_id"
@@ -25,6 +70,29 @@ ActiveRecord::Schema.define(version: 2021_03_08_235708) do
   create_table "loot_join_tables", force: :cascade do |t|
     t.integer "searchable_object_id"
     t.integer "loot_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "loot_rooms", force: :cascade do |t|
+    t.integer "location_id"
+    t.string "name"
+    t.string "description"
+    t.integer "key_id"
+    t.string "wiki_url"
+    t.integer "image_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
+  create_table "loots", force: :cascade do |t|
+    t.integer "location_id"
+    t.string "name"
+    t.string "category"
+    t.string "description"
+    t.integer "market_price"
+    t.integer "trader_price"
+    t.string "available_traders"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
@@ -41,6 +109,17 @@ ActiveRecord::Schema.define(version: 2021_03_08_235708) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
+  create_table "quest_items", force: :cascade do |t|
+    t.integer "searchable_object_id"
+    t.integer "location_id"
+    t.integer "image_id"
+    t.string "description"
+    t.string "quest"
+    t.string "trader"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
+
   create_table "searchable_objects", force: :cascade do |t|
     t.string "image_id"
     t.string "object_name"
@@ -50,6 +129,15 @@ ActiveRecord::Schema.define(version: 2021_03_08_235708) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "location_id"
+  end
+
+  create_table "users", force: :cascade do |t|
+    t.string "username"
+    t.string "email"
+    t.string "password"
+    t.string "pro"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
 end

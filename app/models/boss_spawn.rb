@@ -1,0 +1,2 @@
+class BossSpawn < ApplicationRecord
+end
