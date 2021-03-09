@@ -1,3 +1,4 @@
 class PlayerSpawn < ApplicationRecord
-  has_many :image, :location
+  has_many :images
+  has_many :locations
 end

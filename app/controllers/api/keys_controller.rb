@@ -5,5 +5,7 @@ class Api::KeysController < ApplicationController
   end
 
   def show
+    @key = Key.find_by(id: params[:id])
+    render "show.json.jb"
   end
 end

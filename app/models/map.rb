@@ -1,3 +1,4 @@
 class Map < ApplicationRecord
-  has_many :location, :image
+  has_many :locations
+  has_many :images
 end

@@ -1,4 +1,6 @@
 class Key < ApplicationRecord
-  has_many :location, :image
-  belongs_to :searchable_object, :loot_room
+  has_many :locations
+  has_many :images
+  belongs_to :searchable_object
+  belongs_to :loot_room
 end

@@ -1,4 +1,5 @@
 class QuestItem < ApplicationRecord
-  has_many :image
-  belongs_to :searchable_object, :location
+  has_many :images
+  belongs_to :searchable_object
+  belongs_to :location
 end

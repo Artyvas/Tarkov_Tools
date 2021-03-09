@@ -1,4 +1,8 @@
 class LootRoom < ApplicationRecord
-  has_many :image, :location, :searchable_object, :loot, :quest_item
+  has_many :images
+  has_many :locations
+  has_many :searchable_objects
+  has_many :loots
+  has_many :quest_items
   belongs_to :key
 end

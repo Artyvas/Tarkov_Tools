@@ -1,0 +1,3 @@
+@keys.map do |key|
+  render partial: "key.json.jb", locals: { key: key }
+end
