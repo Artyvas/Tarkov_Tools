@@ -1,6 +1,7 @@
 class Api::SearchableObjectsController < ApplicationController
   def index
     @searchableobjects = SearchableObject.all
+
     render "index.json.jb"
   end
 
@@ -9,3 +10,5 @@ class Api::SearchableObjectsController < ApplicationController
     render "show.json.jb"
   end
 end
+
+ 

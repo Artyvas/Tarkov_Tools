@@ -1,6 +1,6 @@
 {
   id: searchableobject.id,
-  location_code: searchableobject.location_code,
+  location_code: searchableobject.location_id,
   image_id: searchableobject.image_id,
   object_name: searchableobject.object_name,
   description: searchableobject.description,

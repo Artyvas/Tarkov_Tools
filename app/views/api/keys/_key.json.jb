@@ -1,0 +1,10 @@
+{
+  id: key.id,
+  location_id: key.location_id,
+  name: key.name,
+  market_price: key.market_price,
+  trader_price: key.trader_price,
+  trader: key.trader,
+  searchable_object_id: key.searchable_object_id,
+  loot_room_id: key.loot_room_id,
+}
