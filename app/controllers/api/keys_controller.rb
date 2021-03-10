@@ -8,8 +8,4 @@ class Api::KeysController < ApplicationController
     @key = Key.find_by(id: params[:id])
     render "show.json.jb"
   end
-
-  def update 
-    
-  end
 end
