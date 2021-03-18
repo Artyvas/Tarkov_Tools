@@ -1,0 +1,55 @@
+location_code,image_id,object_name,description,needskey,key_id,x_coor,y_coor
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,296,1318
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,205,1317
+C6,https://i.imgur.com/TbcKBRo.png,Key,"San 301 spawn, good money for 1 slot",FALSE,N/A,306,1318
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,900,1554
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,896,1507
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,856,1446
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,912,1316
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,652,1341
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,521,1183
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,545,1183
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,627,1137
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,579,1127
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,642,1124
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,777,1113
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,802,1118
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,786,971
+F9,N/A,Key,Unconfirmed,FALSE,N/A,611,909
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,618,889
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,866,711
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,866,703
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,777,684
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,607,651
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,971,283
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,971,270
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,971,256
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,932,264
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,918,175
+I9,N/A,Loose Loot,Unconfirmed,FALSE,N/A,,
+,https://i.imgur.com/xlbTz7e.png,Drawers,1 set of drawers,FALSE,N/A,,
+,https://i.imgur.com/xlbTz7e.pngg,Weapon Box/Rack,2x8 weapon box on floor next to drawers,FALSE,N/A,,
+,https://i.imgur.com/xlbTz7e.png,Loose Loot,On table next to drawers,FALSE,N/A,,
+,https://i.imgur.com/h525sVU.png,Sports Bag,Next to drawers,FALSE,N/A,,
+,https://i.imgur.com/5mXOBN9.png,Jacket,To the right of the weapon box,FALSE,N/A,,
+,https://i.imgur.com/5mXOBN9.pngg,Jacket,To the right of the weapon box,FALSE,N/A,,
+,https://i.imgur.com/JdUal4g.png,Loose Loot,Loose lot on mattress next to sports bag,FALSE,N/A,,
+,https://i.imgur.com/JdUal4g.pngg,Sports Bag,On wall next to mattress,FALSE,N/A,,
+,https://i.imgur.com/kRXwH7u.png,Loose Loot,On mattress next to barrel and surrounding areas,FALSE,N/A,,
+,https://i.imgur.com/tgCrDcr.png,Weapon Box/Rack,Weapon box 2x8 on the back side of the building near shelf,FALSE,N/A,,
+,https://i.imgur.com/GgKvR89.png,PC,First room on the right of upstairs customs office,TRUE,Customs Office Key,,
+,https://i.imgur.com/0u49TKb.png,PC,First room on the right of upstairs customs office,TRUE,Customs Office Key,,
+,https://i.imgur.com/0u49TKb.pngg,PC,First room on the right of upstairs customs office,TRUE,Customs Office Key,,
+,https://i.imgur.com/zSkwenP.png,Sports Bag,First room on the right of upstairs customs office,TRUE,Customs Office Key	,,
+,https://i.imgur.com/0u49TKb.png,Loose Loot,Loose Loot on table/chair/nightstands. Nightstands spawn currencies,TRUE,Customs Office Key,,
+,https://i.imgur.com/jdEAQXq.png,Safe,Second room on the right of upstairs customs office,TRUE,Customs Office Key,,
+,https://i.imgur.com/R1tbh71.png,Jacket,Second room on the right of upstairs customs office,TRUE,Customs Office Key,,
+,https://i.imgur.com/R1tbh71.pngg,Loose Loot,"Loose Loot on shelves, Intel spawn in the trash bin, Loose currency near safe and desk",TRUE,Customs Office Key,,
+,https://i.imgur.com/ciDJQBy.png,Weapon Box/Rack,Weapon box 2x8 inside the crate to the left,FALSE,N/A,,
+,https://i.imgur.com/ZEhFNrp.png,Drawers,"Inside the blue tin shack, 1 set of drawers",FALSE,N/A,,
+,https://i.imgur.com/ZEhFNrp.png,MedCase,Inside the blue tin shack,FALSE,N/A,,
+,https://i.imgur.com/xFZE0FI.png,Loose Loot,Across from the drawers on the floor,FALSE,N/A,,
+,https://i.imgur.com/NaEf51t.png,Weapon Box/Rack,Weaponbox 2x8 below customs office,FALSE,N/A,,
+,https://i.imgur.com/BBlCCAi.png,Loose Loot,Loose Loot on forklift,FALSE,N/A,,
+,https://i.imgur.com/9PH50ol.png,Loose Loot ,Loose Loot on shelves,FALSE,N/A,,
+,N/A,Scav spawn,AI Scav Spawn,FALSE,N/A,825,1442

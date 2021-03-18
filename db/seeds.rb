@@ -33,8 +33,28 @@ data = csv.map do |row|
     trader: row["trader"],
     searchable_object_id: row["searchable_object_id"],
     image_url: row["image_url"],
+    x_coor: row["x_coor"],
+    y_coor: row["y_coor"],
     created_at: Time.now,
     updated_at: Time.now,
   }
 end
 Key.insert_all!(data)
+
+puts "Creating searchable objects from csv..."
+
+csv_text = File.read(Rails.root.join("db", "searchableobjects.csv"))
+
+csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
+data = csv.map do |row|
+  {
+    object_name: row["object_name"],
+    description: row["description"],
+    needskey: row["needskey"],
+    x_coor: row["x_coor"],
+    y_coor: row["y_coor"],
+    created_at: Time.now,
+    updated_at: Time.now,
+  }
+end
+SearchableObject.insert_all!(data)
