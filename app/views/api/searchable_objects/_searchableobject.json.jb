@@ -1,9 +1,11 @@
 {
   id: searchableobject.id,
-  location_code: searchableobject.location_id,
+  location_id: searchableobject.location_id,
   image_id: searchableobject.image_id,
   object_name: searchableobject.object_name,
   description: searchableobject.description,
   needskey: searchableobject.needskey,
   key_id: searchableobject.key_id,
+  x_coor: searchableobject.x_coor,
+  y_coor: searchableobject.y_coor,
 }

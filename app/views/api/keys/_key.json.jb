@@ -7,4 +7,6 @@
   trader: key.trader,
   searchable_object_id: key.searchable_object_id,
   image_url: key.image_url,
+  x_coor: key.x_coor,
+  y_coor: key.y_coor,
 }
