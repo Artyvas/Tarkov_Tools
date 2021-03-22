@@ -58,3 +58,17 @@ data = csv.map do |row|
   }
 end
 SearchableObject.insert_all!(data)
+
+puts "Creating images"
+
+csv_text = File.read(Rails.root.join("db", "images.csv"))
+
+csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
+data = csv.map do |row|
+  {
+    object_name: row["object_name"],
+    description: row["description"],
+    created_at: Time.now,
+    updated_at: Time.now,
+  }
+end

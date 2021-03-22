@@ -1,26 +1,451 @@
 location_code,image_id,object_name,description,needskey,key_id,x_coor,y_coor
-C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,296,1318
-B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,205,1317
-H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,900,1554
-H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,896,1507
-H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,856,1446
-H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,912,1316
-F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,652,1341
-E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,521,1183
-E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,545,1183
-F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,627,1137
-F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,579,1127
-F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,642,1124
-G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,777,1113
-G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,802,1118
-G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,786,971
-F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,618,889
-H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,866,711
-H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,866,703
-G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,777,684
-F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,607,651
-I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,971,283
-I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,971,270
-I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,971,256
-H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,932,264
-H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,918,175
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,3178,1918
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,3471,1792
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,3135,1423
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,2321,593
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,1836,1917
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,1646,1740
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,3450,1870
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,2871,881
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,1944,118
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,585,48
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,3811,40
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,3775,1315
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,2,1278
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,2194,53
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,2212,305
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,535,307
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,2809,1952
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,3954,168
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,415,2083
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,79,1227
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2530,1309
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,792,794
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,553,1999
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,1884,2160
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,3186,1875
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,2101,355
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,3448,1938
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,3162,1747
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,2369,1324
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,986,1356
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,2945,730
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,3687,715
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,1031,1713
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,1812,722
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,3603,1807
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,2835,1717
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,3163,140
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,1134,2198
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,2073,2186
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,2424,1709
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,198,1864
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,2095,1455
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,1484,743
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,1928,879
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,3964,729
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3345,799
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1164,1272
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1643,953
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,1009,560
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,600,738
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,1038,2147
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,2384,31
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,2145,997
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,3872,1706
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,1010,962
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,3287,671
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,2014,64
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,2490,310
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,679,361
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,305,1214
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,522,1058
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,2958,1017
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,1701,1786
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,962,1708
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,2964,680
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,1758,1790
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,127,1477
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,3951,74
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,669,1129
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,138,448
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1060,1358
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1160,1953
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2985,1690
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,1009,1642
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,936,730
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,688,775
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,448,173
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,987,349
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,3779,554
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,2444,2129
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,3948,1356
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,3687,1644
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,2741,866
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,2899,567
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,1730,913
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,1330,2040
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,3263,1718
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,2573,2064
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,1052,1607
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,755,5
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,1193,590
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,2836,1406
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,2332,2098
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,2899,354
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,2168,16
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3592,2065
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2607,534
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1835,233
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,1609,1495
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,2437,245
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,2144,1634
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,2444,1254
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,1649,580
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,863,1521
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,1013,818
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,793,654
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,2318,816
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,84,1863
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,1470,464
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,301,393
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,1316,1797
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,2064,372
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,956,1469
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,1780,1684
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,1712,407
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,327,1368
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,1567,1575
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,2407,260
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,3879,2123
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,2126,51
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2793,1004
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3731,490
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3004,1564
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,548,489
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,1385,747
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,1773,1768
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,2507,62
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,133,534
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,3149,1923
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,1308,1168
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,2679,301
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,589,292
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,516,1673
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,1407,669
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,888,1913
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,174,1375
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,2713,1884
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,305,1055
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,662,2229
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,1329,686
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,2343,333
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,694,1176
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,3993,176
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,2142,1091
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,3241,1925
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1498,1555
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2179,1898
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2211,1101
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,3389,481
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,3225,646
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,1537,231
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,496,539
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,3758,1380
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,2957,1852
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,1320,1970
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,3728,1208
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,2876,639
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,80,480
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,2150,1928
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,964,136
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,1967,850
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,2803,1385
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,317,1372
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,855,556
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,2482,950
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,2569,1582
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,250,197
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,1211,1069
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,2854,854
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,422,964
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2510,784
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1443,511
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2300,1796
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,2415,1283
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,1614,1316
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,1454,364
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,505,1804
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,2132,1397
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,1029,1837
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,3560,602
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,3009,2019
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,1405,1829
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,1661,1961
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,3028,1177
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,3125,1898
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,1305,751
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,1170,1162
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,1785,1672
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,234,152
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,481,74
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,2429,1898
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,911,1199
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,3250,830
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,2934,381
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,2477,647
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,457,1190
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1124,2017
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2290,2250
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,2262,1965
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,199,789
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,3176,1440
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,2665,594
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,2533,1289
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,3879,2113
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,1120,2074
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,1190,1931
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,193,1952
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,2533,468
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,1580,1413
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,2275,578
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,442,2012
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,1469,413
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,2938,382
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,2701,1078
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,1040,1756
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,482,135
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,3351,919
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,3600,1464
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,2025,71
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,1874,1897
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3744,75
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2418,1035
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3198,198
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,1875,1149
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,2625,311
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,2927,155
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,717,927
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,2022,1950
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,541,2188
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,2371,591
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,3131,1613
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,2091,1141
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,1012,259
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,3825,2043
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,160,463
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,1148,1321
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,3754,1250
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,2837,5
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,2579,2091
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,2302,675
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,3042,941
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,2443,1984
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,508,1410
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,1750,576
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,1019,734
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3617,845
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,455,1499
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3661,400
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,2800,1421
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,3253,2168
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,2430,2121
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,3517,1343
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,1178,18
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,746,536
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,3456,1911
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,3454,1052
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,3778,331
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,3246,492
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,2819,1553
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,202,1984
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,474,1203
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,676,724
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,1368,307
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,3197,690
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,1912,1252
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,2583,80
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,203,1351
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,1443,51
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,948,939
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,1901,1352
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1081,1432
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2694,1540
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1844,1381
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,3704,561
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,3857,1637
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,1551,419
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,3045,2122
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,2035,1799
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,1302,181
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,2037,565
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,366,660
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,877,1486
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,619,641
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,1236,956
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,2415,1580
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,351,1227
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,1978,2140
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,1571,897
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,3083,939
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,2218,1005
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,1416,1559
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,299,1872
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,926,2143
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,1763,1503
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,2413,149
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1805,250
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,271,844
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2144,2187
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,1481,735
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,3266,1597
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,1871,702
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,269,314
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,2094,274
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,1276,185
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,3939,939
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,2299,1099
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,282,1073
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,3986,594
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,3386,638
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,3843,366
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,2221,1559
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,2371,1361
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,97,86
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,2920,519
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,3151,33
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,3169,703
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,67,258
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,2782,2030
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,1936,423
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,3097,1639
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2226,2102
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2656,923
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2617,592
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,894,1163
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,2790,1095
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,3504,812
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,3259,592
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,806,422
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,3948,111
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,853,1349
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,1444,1300
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,2053,1422
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,2735,1204
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,1803,2021
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,2723,436
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,1878,1346
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,902,449
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,272,24
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,3364,298
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,758,620
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,1616,1589
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,1554,2020
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,3716,1574
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,3343,956
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,3825,1756
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,282,391
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1524,932
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1703,1613
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,2106,2118
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,868,170
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,3524,1647
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,475,489
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,831,126
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,2489,1131
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,2632,2075
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,469,416
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,475,1562
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,3711,2099
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,1079,1607
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,2326,1384
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,2899,1196
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,2824,586
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,799,1296
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,794,445
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,3427,636
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,2962,1930
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,3407,1664
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,1215,1404
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,2559,2040
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,89,939
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3098,745
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2785,920
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3135,157
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,936,821
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,783,513
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,2175,1486
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,3783,247
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,2949,2034
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,811,1121
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,92,1066
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,486,2201
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,1353,2218
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,583,1212
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,2349,1949
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,1081,2063
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,1379,1706
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,396,620
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,33,989
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,2531,1881
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,2763,671
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,1849,89
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,2340,429
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,1797,1465
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,568,1501
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,137,2207
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,666,330
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,127,123
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3425,1363
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,548,301
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,3514,1681
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,1316,666
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,1690,1607
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,921,768
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,2216,2119
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,2101,1064
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,3726,836
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,1599,185
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,3436,2194
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,1604,35
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,273,2187
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,2603,924
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,3404,911
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,1003,1271
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,596,481
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,987,2228
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,1005,1840
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,540,1421
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,356,1935
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,714,2106
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,2322,1856
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,2920,228
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,542,1572
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1414,819
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,827,1566
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,3128,1420
+C5,https://i.imgur.com/bYVE1y2.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,2945,824
+B5,https://i.imgur.com/Ajc5Mmj.png,Wooden Crate,Hit this cluster of crates if you're spawning/extracting crossroads,FALSE,N/A,2603,235
+H4,https://i.imgur.com/MpKodft.png,Weapon Box/Rack,4X4 Weapon box,FALSE,N/A,1785,100
+H4,https://i.imgur.com/MpKodft.png,Jacket,Blue lootable jacket in corner of storage container,FALSE,N/A,2022,1815
+H4,https://i.imgur.com/spyzE4N.png https://i.imgur.com/VA5hICj.png,Loose Loot,Trunk commonly holds AK and loose bullet - needs car key to access,TRUE,Car key,757,1616
+H6,https://i.imgur.com/2U8G7uM.png,Sports Bag,Sport bag + chance to spawn loose loot,FALSE,N/A,3218,172
+F5,https://i.imgur.com/ZWXKZ7l.png,Loose Loot,Ammo box spawns on a couch here - all ammo types spawned are randomR,FALSE,N/A,3948,1934
+E7,https://i.imgur.com/jlFzVcu.png,Loose Loot,Sometimes there are two loose loots here,FALSE,N/A,2001,377
+E7,https://i.imgur.com/qzgdYAp.png,Loose Loot,Random loose loot,FALSE,N/A,3878,1492
+F7,https://i.imgur.com/SZ5Bq25.png,Jacket,Brown lootable jacket in storage container,FALSE,N/A,1265,132
+F7,https://i.imgur.com/TDqgmXl.png,Weapon Box/Rack,4x4 weapon box in back of storage container,FALSE,N/A,606,999
+F7,https://i.imgur.com/KombdJC.png,Loose Loot,Random loose loot,FALSE,N/A,98,1053
+G7,https://i.imgur.com/tSvkbRs.png,Dead Scav,Lootable dead Scav in the back of the storage container,FALSE,N/A,3493,1459
+G7,https://i.imgur.com/tSvkbRs.png,Loose Loot,Several pieces of loose Tool loot on the north shelves of dead scav container,FALSE,N/A,3432,1890
+G8,https://i.imgur.com/hTgoPRA.png,Loose Loot,Loose loot in the trunk,FALSE,N/A,3100,109
+F9,https://i.imgur.com/r5SdI0k.png,Loose Loot,Loose Loot on right side container in lockers,FALSE,N/A,2820,1757
+H11,https://i.imgur.com/ZqewQgU.png,Med Bag,Med Bag in trunk of white car,FALSE,N/A,1520,476
+H11,https://i.imgur.com/ZqewQgU.png,Loose Loot,Loose loot in trunk of white car,FALSE,N/A,3485,2244
+G11,https://i.imgur.com/1Jeg51L.png,Sports Bag,Sports bag in storage container across from white car,FALSE,N/A,2838,587
+F11,https://i.imgur.com/9Lb70zy.png,Loose Loot,Loose loot on shelves of storage container,FALSE,N/A,56,718
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,3485,629
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,1272,1758
+I14,https://i.imgur.com/FfulArC.png,Jacket,Jacket in the Portable Cabin - second floor,FALSE,N/A,926,1005
+H14,N/A,Loose Loot,Random Loose Loot on first floor of Portable Cabin,FALSE,N/A,388,160
+H15,https://i.imgur.com/QI5IsiK.png,Sports Bag,Sports Bag on the second floor of corner building,FALSE,N/A,2413,316
