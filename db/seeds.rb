@@ -59,16 +59,39 @@ data = csv.map do |row|
 end
 SearchableObject.insert_all!(data)
 
-puts "Creating images"
+# puts "Creating images"
 
-csv_text = File.read(Rails.root.join("db", "images.csv"))
+# csv_text = File.read(Rails.root.join("db", "images.csv"))
+
+# csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
+# data = csv.map do |row|
+#   {
+#     object_name: row["object_name"],
+#     description: row["description"],
+#     created_at: Time.now,
+#     updated_at: Time.now,
+#   }
+# end
+
+puts "Creating spawns..."
+
+csv_text = File.read(Rails.root.join("db", "spawns.csv"))
 
 csv = CSV.parse(csv_text, :headers => true, :encoding => "ISO-8859-1")
 data = csv.map do |row|
   {
-    object_name: row["object_name"],
+    image_url: row["image_url"],
+    name: row["name"],
+    spawn_type: row["spawn_type"],
+    x_coor: row["x_coor"],
+    y_coor: row["y_coor"],
+    wiki_url: row["wiki_url"],
     description: row["description"],
+    boss_rank: row["boss_rank"],
+    difficulty: row["difficulty"],
+    is_hotspot: row["is_hotspot"],
     created_at: Time.now,
     updated_at: Time.now,
   }
 end
+Spawn.insert_all!(data)

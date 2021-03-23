@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_03_21_161519) do
+ActiveRecord::Schema.define(version: 2021_03_23_030437) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -141,6 +141,21 @@ ActiveRecord::Schema.define(version: 2021_03_21_161519) do
     t.integer "location_id"
     t.integer "x_coor"
     t.integer "y_coor"
+  end
+
+  create_table "spawns", force: :cascade do |t|
+    t.string "image_url"
+    t.string "name"
+    t.string "spawn_type"
+    t.integer "x_coor"
+    t.integer "y_coor"
+    t.string "wiki_url"
+    t.string "description"
+    t.string "boss_rank"
+    t.string "difficulty"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.string "is_hotspot"
   end
 
   create_table "users", force: :cascade do |t|

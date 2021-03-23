@@ -11,5 +11,9 @@ Rails.application.routes.draw do
     # Key Routes:
     get "/keys" => "keys#index"
     get "/keys/:id" => "keys#show"
+    
+    # Spawn Routes:
+    get "/spawns" => "spawns#index"
+    get "/spawns/:id" => "spawns#show"
   end
 end

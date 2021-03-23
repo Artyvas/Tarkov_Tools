@@ -1,0 +1,3 @@
+@spawns.map do |spawn|
+  render partial: "spawn.json.jb", locals: { spawn: spawn }
+end

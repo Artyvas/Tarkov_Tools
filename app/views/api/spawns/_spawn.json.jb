@@ -1,0 +1,12 @@
+{
+  id: spawn.id,
+  image_url: spawn.image_url,
+  name: spawn.name,
+  type: spawn.spawn_type,
+  x_coor: spawn.x_coor,
+  y_coor: spawn.y_coor,
+  wiki_url: spawn.wiki_url,
+  description: spawn.description,
+  boss_rank: spawn.boss_rank,
+  difficulty: spawn.difficulty,
+}
