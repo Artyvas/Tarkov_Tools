@@ -1,33 +1,33 @@
 location_id,image_url,name,loot_room,market_price,trader_price,trader,searchable_object_id,map_id
-37,EastWingRoom310.png,East Wing Room 310 Key,N/A,N/A,N/A,N/A,N/A,1
-142,portablecabinkey.png,Portable Cabin Key,Portable Cabin,N/A,N/A,N/A,N/A,N/A
-N/A,customsofficekey.png,Customs office key,N/A,N/A,N/A,N/A,N/A,N/A
-N/A,factory.png,Factory exit key,N/A,N/A,N/A,N/A,N/A,1
-N/A,dormguarddesk.png,Dorm guard desk key,Dorm guard desk key,N/A,N/A,N/A,N/A,1
-N/A,104.png,Dorm room 104 Key,Dorm room 104 Key,N/A,N/A,N/A,N/A,N/A
-N/A,105.png,Dorm room 105 Key,Dorm room 105 Key,N/A,N/A,N/A,N/A,N/A
-N/A,110.png,Dorm room 110 Key,Dorm room 110 Key,N/A,N/A,N/A,N/A,1
-N/A,114.png,Dorm room 114 Key,Dorm room 114 Key,N/A,N/A,N/A,N/A,1
-N/A,206.png,Dorm room 206 Key,Dorm room 206 Key,N/A,N/A,N/A,N/A,N/A
-N/A,103.png,Dorm room 103 Key,Dorm room 103 Key,N/A,N/A,N/A,N/A,N/A
-N/A,108.png,Dorm room 108 Key,Dorm room 108 Key,N/A,N/A,N/A,N/A,N/A
-N/A,118.png,Dorm room 118 Key,Dorm room 118 Key,N/A,N/A,N/A,N/A,N/A
-N/A,203.png,Dorm room 203 Key,Dorm room 203 Key,N/A,N/A,N/A,N/A,N/A
-N/A,204.png,Dorm room 204 Key,Dorm room 204 Key,N/A,N/A,N/A,N/A,N/A
-N/A,214.png,Dorm room 214 Key,Dorm room 214 Key,N/A,N/A,N/A,N/A,1
-N/A,218.png,Dorm room 218 Key,Dorm room 218 Key,N/A,N/A,N/A,N/A,N/A
-N/A,220.png,Dorm room 220 Key,Dorm room 220 Key,N/A,N/A,N/A,N/A,1
-N/A,303.png,Dorm room 303 Key,Dorm room 303 Key,N/A,N/A,N/A,N/A,N/A
-N/A,306.png,Dorm room 306 Key,Dorm room 306 Key,N/A,N/A,N/A,N/A,N/A
-N/A,308.png,Dorm room 308 Key,Dorm room 308 Key,N/A,N/A,N/A,N/A,N/A
-N/A,315.png,Dorm room 315 Key,Dorm room 315 Key,N/A,N/A,N/A,N/A,N/A
-N/A,markedkey.png,Marked key,Marked Room,N/A,N/A,N/A,N/A,N/A
-N/A,machinerykey.png,Machinery key,Truck Door,N/A,N/A,N/A,N/A,1
-N/A,carkey.png,Car key,Car Trunk,N/A,N/A,N/A,N/A,N/A
-N/A,militarybasecheck.png,Military base checkpoint key,Military Base Checkpoint,N/A,N/A,N/A,N/A,1
-N/A,trailerparkcabin.png,Trailer park cabin key,Trailer park cabin key,N/A,N/A,N/A,N/A,N/A
-N/A,cabinet.png,Cabinet key,Gas Station Managers Office,N/A,N/A,N/A,N/A,N/A
-N/A,gasstationstorage.png,The key to the gas station storage room,Gas station storage room,N/A,N/A,N/A,N/A,N/A
-N/A,unknown.png,Unknown key,Shack Key,N/A,N/A,N/A,N/A,1
-N/A,USECstashcustoms.png,USEC stash on Customs key,USEC stash on Customs,N/A,N/A,N/A,N/A,N/A
-N/A,Portablecabinkeycustomsfactoryzone.png,Portable cabin key of customs Factory zone,Portable cabin of customs Factory zone,N/A,N/A,N/A,N/A,1
+37,EastWingRoom310.png,East Wing Room 310 Key,N/A,"55,661","30,250",N/A,N/A,1
+142,portablecabinkey.png,Portable Cabin Key,Portable Cabin,"97,332","31,208",N/A,N/A,N/A
+N/A,customsofficekey.png,Customs office key,N/A,"79,238","40,680",N/A,N/A,N/A
+N/A,factory.png,Factory exit key,N/A,"98,186","38,111",N/A,N/A,1
+N/A,dormguarddesk.png,Dorm guard desk key,Dorm guard desk key,"74,058","95,533",N/A,N/A,1
+N/A,104.png,Dorm room 104 Key,Dorm room 104 Key,"92,586","50,722",N/A,N/A,N/A
+N/A,105.png,Dorm room 105 Key,Dorm room 105 Key,"67,652","67,129",N/A,N/A,N/A
+N/A,110.png,Dorm room 110 Key,Dorm room 110 Key,"84,750","70,692",N/A,N/A,1
+N/A,114.png,Dorm room 114 Key,Dorm room 114 Key,"33,423","65,066",N/A,N/A,1
+N/A,206.png,Dorm room 206 Key,Dorm room 206 Key,"51,603","62,047",N/A,N/A,N/A
+N/A,103.png,Dorm room 103 Key,Dorm room 103 Key,"47,050","32,061",N/A,N/A,N/A
+N/A,108.png,Dorm room 108 Key,Dorm room 108 Key,"26,309","91,112",N/A,N/A,N/A
+N/A,118.png,Dorm room 118 Key,Dorm room 118 Key,"76,162","26,314",N/A,N/A,N/A
+N/A,203.png,Dorm room 203 Key,Dorm room 203 Key,"82,454","96,891",N/A,N/A,N/A
+N/A,204.png,Dorm room 204 Key,Dorm room 204 Key,"21,014","58,738",N/A,N/A,N/A
+N/A,214.png,Dorm room 214 Key,Dorm room 214 Key,"91,516","32,471",N/A,N/A,1
+N/A,218.png,Dorm room 218 Key,Dorm room 218 Key,"25,056","26,348",N/A,N/A,N/A
+N/A,220.png,Dorm room 220 Key,Dorm room 220 Key,"36,993","84,940",N/A,N/A,1
+N/A,303.png,Dorm room 303 Key,Dorm room 303 Key,"98,370","82,855",N/A,N/A,N/A
+N/A,306.png,Dorm room 306 Key,Dorm room 306 Key,"64,801","7,525",N/A,N/A,N/A
+N/A,308.png,Dorm room 308 Key,Dorm room 308 Key,"69,093","93,865",N/A,N/A,N/A
+N/A,315.png,Dorm room 315 Key,Dorm room 315 Key,"81,239","83,064",N/A,N/A,N/A
+N/A,markedkey.png,Marked key,Marked Room,"97,938","97,283",N/A,N/A,N/A
+N/A,machinerykey.png,Machinery key,Truck Door,"56,996","12,513",N/A,N/A,1
+N/A,carkey.png,Car key,Car Trunk,"73,974","54,347",N/A,N/A,N/A
+N/A,militarybasecheck.png,Military base checkpoint key,Military Base Checkpoint,"78,289","26,095",N/A,N/A,1
+N/A,trailerparkcabin.png,Trailer park cabin key,Trailer park cabin key,"90,833","28,308",N/A,N/A,N/A
+N/A,cabinet.png,Cabinet key,Gas Station Managers Office,"64,323","62,679",N/A,N/A,N/A
+N/A,gasstationstorage.png,The key to the gas station storage room,Gas station storage room,"11,433","56,048",N/A,N/A,N/A
+N/A,unknown.png,Unknown key,Shack Key,"93,861","65,338",N/A,N/A,1
+N/A,USECstashcustoms.png,USEC stash on Customs key,USEC stash on Customs,"16,276","77,981",N/A,N/A,N/A
+N/A,Portablecabinkeycustomsfactoryzone.png,Portable cabin key of customs Factory zone,Portable cabin of customs Factory zone,"32,676","32,484",N/A,N/A,1
